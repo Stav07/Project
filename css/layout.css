@@ -119,8 +119,9 @@ h1 {
 
 nav ul li a:link,
 nav ul li a:visited {
+    font-size: 100%;
     display: inline-block;
-    width: 8em;
+    width: 10em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -132,8 +133,9 @@ nav ul li a:visited {
 
 nav ul li a:hover,
 nav ul li a:active {
+    font-size: 100%;
     display: inline-block;
-    width: 8em;
+    width: 10em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;

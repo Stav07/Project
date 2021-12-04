@@ -65,8 +65,7 @@ h1 {
     color: black;
     float: left;
     margin-bottom: -2000px;
-    margin-left: 10%;
-    margin-right: 10%;
+
     padding-bottom: 2000px;
     text-align: center;
 
@@ -204,16 +203,18 @@ footer a:hover,a:active {
     border: solid black 10px;
     background-color: pink;
 }
-
+/*styling for the calculation form */
 .calform
 {
-    width: 25%;
+    width: 10%;
+    height: auto;
     text-align: left;
     font-weight: bold;
 }
 /*styling for the billing form */
 .billing {
-    width: 25%;
+    width: 10%;
+    height:auto;
     text-align: left;
     font-weight: bold;
 }

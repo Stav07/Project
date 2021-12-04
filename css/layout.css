@@ -18,10 +18,24 @@ h1 {
     font-size: 40px;
 }
 
-img {
-    width:30%;
+.smallpic {
+    border: 1px solid black;
+    margin-right: 3px;
+    width:25%;
+    height:auto;
+
 }
 
+.mainpic {
+    width: 50%;
+    height: auto;
+
+}
+
+.newspic {
+    width: 60%;
+    height: auto
+}
 
 
 #left-content,

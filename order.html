@@ -53,39 +53,45 @@
             </p>
 
             <div>
-            
+
                 <a href="#" onclick="javascript:document.images['large_photo'].src = './images/deku.jpeg'" title="Deku">
-            
+
                     <img class="smallpic" src="images/sdeku.jpeg" alt="small deku"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/Asuna.png'" title="Asuna">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/Asuna.png'"
+                    title="Asuna">
+
                     <img class="smallpic" src="./images/sasuna.png" alt="small asuna"></a>
-            
+
                 <a href="#" onclick="javascript:document.images['large_photo'].src = './images/dabi.jpeg'" title="Dabi">
-            
+
                     <img class="smallpic" src="./images/sdabi.jpeg" alt="small dabi"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/kachan.jpeg'" title="Kachan">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/kachan.jpeg'"
+                    title="Kachan">
+
                     <img class="smallpic" src="./images/skachan.jpeg" alt="small kachan"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/todaroki.jpeg'" title="Todaroki">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/todaroki.jpeg'"
+                    title="Todaroki">
+
                     <img class="smallpic" src="./images/stodaroki.jpeg" alt="small todoroki"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/bulma.png'" title="Bulma">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/bulma.png'"
+                    title="Bulma">
+
                     <img class="smallpic" src="./images/sbulma.png" alt="small bulma"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/oikawa.png'" title="Oikawa">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/oikawa.png'"
+                    title="Oikawa">
+
                     <img class="smallpic" src="./images/soikawa.png" alt="small oikawa"></a>
-            
-                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/sukuna.png'" title="Sakuna">
-            
+
+                <a href="#" onclick="javascript:document.images['large_photo'].src = './images/sukuna.png'"
+                    title="Sakuna">
+
                     <img class="smallpic" src="./images/ssukuna.png" alt="small sakuna"></a>
-            
+
             </div>
         </section>
         <!--Main content on right section-->
@@ -102,7 +108,7 @@
                         <h3>Input the quantity of Items,also please select your design choice. <br>
                             The total will be displayed once you hit the calculate button.</h3>
                         <form name="theform">
-                            <table style="width: 500px; height: auto;">
+                            <table class="calform">
                                 <!--Table Head Items-->
                                 <thead>
                                     <th>Menu Item</th>
@@ -175,7 +181,8 @@
                                 <!--Divider-->
                                 <tr>
                                     <td colspan="5" style="border-top: 3px solid black; text-align: right;">
-                                        <strong></strong></td>
+                                        <strong></strong>
+                                    </td>
                                 </tr>
                                 <!--Subtotal Output-->
                                 <tr>
@@ -228,107 +235,111 @@
                 </tr>
             </table>
             <!--Billing Form-->
-            <form class="billing" name="chk">
+            <div class="billingdiv">
+                <form class="billing" name="chk">
 
-                <output id="errors"></output>
+                    <output id="errors"></output>
 
-                <fieldset style="background-color: aqua;">
+                    <fieldset style="background-color: aqua;">
 
-                    <legend style="font-weight: bold; font-size: 20px;text-align: left;">Shipping & Billing Address
-                    </legend>
+                        <legend style="font-weight: bold; font-size: 20px;text-align: left;">Shipping & Billing Address
+                        </legend>
 
-                    <p>
-                        <!--First Name Input-->
-                        <label class="question" for="first_name">
+                        <p>
+                            <!--First Name Input-->
+                            <label class="question" for="first_name">
 
-                            First Name</label>
+                                First Name</label>
 
-                        <input type="text" id="first_name" name="first_name" placeholder="First Name" size="50"
-                            required>
+                            <input type="text" id="first_name" name="first_name" placeholder="First Name" size="50"
+                                required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--Last Name Input-->
-                        <label class="question" for="last_name">
+                        <p>
+                            <!--Last Name Input-->
+                            <label class="question" for="last_name">
 
-                            Last Name</label>
+                                Last Name</label>
 
-                        <input type="text" id="last_name" name="last_name" placeholder="Last Name" size="50" required>
+                            <input type="text" id="last_name" name="last_name" placeholder="Last Name" size="50"
+                                required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--Address Input-->
-                        <label class="question" for="address">
+                        <p>
+                            <!--Address Input-->
+                            <label class="question" for="address">
 
-                            Address</label>
+                                Address</label>
 
-                        <input type="text" id="address" name="address" placeholder="Address" size="50" required>
+                            <input type="text" id="address" name="address" placeholder="Address" size="50" required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--City Input-->
-                        <label class="question" for="City">
+                        <p>
+                            <!--City Input-->
+                            <label class="question" for="City">
 
-                            City</label>
+                                City</label>
 
-                        <input type="text" id="City" name="City" placeholder="City" size="50" required>
+                            <input type="text" id="City" name="City" placeholder="City" size="50" required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--State Input-->
-                        <label class="question" for="State">
+                        <p>
+                            <!--State Input-->
+                            <label class="question" for="State">
 
-                            State</label>
+                                State</label>
 
-                        <input type="text" id="State" name="State" placeholder="State" size="50" required>
+                            <input type="text" id="State" name="State" placeholder="State" size="50" required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--Zip Code Input-->
-                        <label class="question" for="zcode">
+                        <p>
+                            <!--Zip Code Input-->
+                            <label class="question" for="zcode">
 
-                            Zip Code</label>
+                                Zip Code</label>
 
-                        <input type="text" id="zcode" name="zcode" placeholder="Zip Code" size="50" required>
+                            <input type="text" id="zcode" name="zcode" placeholder="Zip Code" size="50" required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--Phone Input-->
-                        <label class="question" for="phone">
+                        <p>
+                            <!--Phone Input-->
+                            <label class="question" for="phone">
 
-                            Phone</label>
+                                Phone</label>
 
-                        <input type="text" id="phone" name="phone" placeholder="Phone" size="50" required>
+                            <input type="text" id="phone" name="phone" placeholder="Phone" size="50" required>
 
-                    </p>
+                        </p>
 
-                    <p>
-                        <!--Email Address Input-->
-                        <label class="question" for="the_email">
+                        <p>
+                            <!--Email Address Input-->
+                            <label class="question" for="the_email">
 
-                            Email address</label>
+                                Email address</label>
 
-                        <input type="email" id="the_email" name="the_email" placeholder="Email Address" size="50"
-                            required>
+                            <input type="email" id="the_email" name="the_email" placeholder="Email Address" size="50"
+                                required>
 
-                    </p>
+                        </p>
 
-                </fieldset>
-                <!--Submit and Clear Buttons-->
-                <div>
+                    </fieldset>
+                    <!--Submit and Clear Buttons-->
+                    <div>
 
-                    <input type="submit" value="Submit"> or
+                        <input type="submit" value="Submit"> or
 
-                    <input type="reset" value="Clear">
+                        <input type="reset" value="Clear">
 
-                </div>
-            </form>
+                    </div>
+                </form>
+
+            </div>
             <p><span style="font-size: 20px;"><strong>
 
                         Your one stop shop for all your favorite anime merch!<br>
@@ -464,7 +475,7 @@
             document.theform.shirts.value = " ";
             document.theform.sweats.value = " ";
 
-            
+
 
             document.theform.photosFmQty.focus();
         }

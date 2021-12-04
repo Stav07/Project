@@ -41,7 +41,7 @@ img {
 }
 
 #main-content {
-    width: 45%;
+    width: 50%;
     background: white;
     color: black;
     float: left;
@@ -191,7 +191,7 @@ footer a:hover,a:active {
 .tableclass {
     border: solid black 10px;
     background-color: pink;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .billing {

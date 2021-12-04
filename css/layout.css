@@ -27,18 +27,18 @@ h1 {
 }
 /* class for logo */
 .logo {
-    width:25%;
+    width:20%;
     height: auto;
 }
 /* class for the picture in main section */
 .mainpic {
-    width: 30%;
+    width: 60%;
     height: auto;
 
 }
 /* class for the picture in main section on the news webage */
 .newspic {
-    width: 40%;
+    width: 60%;
     height: auto
 }
 
@@ -65,8 +65,11 @@ h1 {
     color: black;
     float: left;
     margin-bottom: -2000px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 2000px;
     text-align: center;
+
 }
 
 
@@ -200,14 +203,12 @@ footer a:hover,a:active {
 .tableclass {
     border: solid black 10px;
     background-color: pink;
-    margin-left: 30%;
 }
 /*styling for the billing form */
 .billing {
     width: 25%;
     text-align: left;
     font-weight: bold;
-    margin-left: 30%;
 }
 
 #errors {

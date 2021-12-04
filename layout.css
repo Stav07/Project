@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#main {
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+body {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+/* class for small pictures in left contet */
+.smallpic {
+    border: 1px solid black;
+    margin-right: 3px;
+    width:15%;
+    height:auto;
+
+}
+/* class for logo */
+.logo {
+    width:20%;
+    height: auto;
+}
+/* class for the picture in main section */
+.mainpic {
+    width: 60%;
+    height: auto;
+
+}
+/* class for the picture in main section on the news webage */
+.newspic {
+    width: 60%;
+    height: auto
+}
+
+/*setting the table cells for left and main content */
+#left-content,
+#main-content {
+    display: table-cell;
+    padding: 0px 20px 20px 20px;
+}
+
+#left-content {
+    width: 30%;
+    background: linear-gradient(to right, white 0%, pink 100%);
+    color: black;
+    float: left;
+    margin-bottom: -2000px;
+    padding-bottom: 2000px;
+    text-align: left;
+}
+
+#main-content {
+    width: 30%;
+    background: white;
+    color: black;
+    float: left;
+    margin-bottom: -2000px;
+
+    padding-bottom: 2000px;
+    text-align: center;
+
+}
+
+
+.header1 {
+    background: aqua;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 0px 0px 25px 0px;
+    margin-bottom: -22px;
+    width: 100%;
+
+}
+
+.header2 {
+    background: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 10px 10px 10px;
+}
+
+.header3 {
+    background: linear-gradient(to right, pink, aqua 100%);
+    color: black;
+    text-align: left;
+    font-style: italic;
+    padding: 10px 25px 0px 0px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+/*navigation bar */
+
+nav ul li a:link,
+nav ul li a:visited {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: pink;
+    color: white;
+    border-radius: 3rem;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: pink;
+    color: white;
+    border-radius: 3rem;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+/*footer with bottom navigation */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 10px 10px 10px;
+}
+
+footer ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer ul li a:link,
+footer ul li a:visited {
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #ffffff;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 5px;
+    color:aqua;
+}
+
+footer a:link,a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover,a:active {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}  
+
+
+/*header 2 image */
+.image {   
+    object-fit: cover;
+    height: 20%;
+    width: 100%;
+
+}
+/* class for the big picture in the left section */
+.square {
+    width: 50%;
+    height: auto;
+    margin: 1%;
+    border-radius: 3rem;
+    border: solid 0.25rem black;
+    text-align: center;
+}
+/* borders for the order now form */
+.tableclass {
+    border: solid black 10px;
+    background-color: pink;
+}
+/*styling for the calculation form */
+.calform
+{
+    width: 500px;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+}
+/*styling for the billing form */
+.billing {
+    width: 10%;
+    height:auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+#errors {
+
+    color: red;
+
+    font-weight: bold;
+
+    font-size: larger;
+
+}
+
+.email {
+    border: solid black 10px;
+    background-color: pink;
+    margin-left: 25%;
+    width: 100px;
+    height: 200px;
+
+}
+
+.image {   
+    object-fit: cover;
+    width: 100%;
+    height: 20%;
+}
+
+
+
+
+
+
+

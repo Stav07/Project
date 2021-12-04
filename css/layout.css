@@ -116,18 +116,11 @@ h1 {
     padding: 10px 10px 10px 10px;
 }
 
-.nav {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-style: italic;
-    padding: 10px 10px 10px 10px;
-}
 
 nav ul li a:link,
 nav ul li a:visited {
     display: inline-block;
-    width: 7em;
+    width: 8em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -140,7 +133,7 @@ nav ul li a:visited {
 nav ul li a:hover,
 nav ul li a:active {
     display: inline-block;
-    width: 7em;
+    width: 8em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -158,6 +151,9 @@ nav ul li {
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    overflow: hidden;
+    position: relative;
+
 }
 
 footer ul li {

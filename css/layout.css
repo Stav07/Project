@@ -107,30 +107,28 @@ h1 {
 /*navigation bar */
 nav ul li a:link,
 nav ul li a:visited {
-    font-size: 100%;
     display: inline-block;
-    width: 10em;
+    width: 8em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: pink;
     color: #ffffff;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 nav ul li a:hover,
 nav ul li a:active {
-    font-size: 100%;
     display: inline-block;
-    width: 10em;
+    width: 8em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: aqua;
     color: #000000;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 
@@ -140,7 +138,6 @@ nav ul li {
     text-align: center;
     display: inline-block;
     margin: 10px;
-    padding: 10px;
     
 
 }

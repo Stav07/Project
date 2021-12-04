@@ -31,7 +31,7 @@ img {
 }
 
 #left-content {
-    width: 40%;
+    width: 35%;
     background: linear-gradient(to right, white 0%, pink 100%);
     color: black;
     float: left;
@@ -41,7 +41,7 @@ img {
 }
 
 #main-content {
-    width: 50%;
+    width: 45%;
     background: white;
     color: black;
     float: left;
@@ -99,8 +99,8 @@ img {
 nav ul li a:link,
 nav ul li a:visited {
     display: inline-block;
-width: 7em;
-text-align: center;
+    width: 7em;
+    text-align: center;
     font-weight: bold;
     text-decoration: none;
     padding: 10px 30px;
@@ -112,8 +112,8 @@ text-align: center;
 nav ul li a:hover,
 nav ul li a:active {
     display: inline-block;
-width: 7em;
-text-align: center;
+    width: 7em;
+    text-align: center;
     font-weight: bold;
     text-decoration: none;
     padding: 10px 30px;

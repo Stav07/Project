@@ -191,14 +191,14 @@ footer a:hover,a:active {
 .tableclass {
     border: solid black 10px;
     background-color: pink;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .billing {
     width: 225px;
     text-align: left;
     font-weight: bold;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 #errors {

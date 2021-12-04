@@ -17,7 +17,7 @@ h1 {
     font-family: 'Lobster', cursive;
     font-size: 40px;
 }
-
+/* class for small pictures in left contet */
 .smallpic {
     border: 1px solid black;
     margin-right: 3px;
@@ -25,24 +25,24 @@ h1 {
     height:auto;
 
 }
-
+/* class for logo */
 .logo {
     width:20%;
     height: auto;
 }
-
+/* class for the picture in main section */
 .mainpic {
     width: 30%;
     height: auto;
 
 }
-
+/* class for the picture in main section on the news webage */
 .newspic {
     width: 40%;
     height: auto
 }
 
-
+/*setting the table cells for left and main content */
 #left-content,
 #main-content {
     display: table-cell;
@@ -69,12 +69,6 @@ h1 {
     text-align: center;
 }
 
-.div1 {
-    position: absolute;
-  top: 20px;
-  right: 25px;
-  font-size: 18px;
-}
 
 .header1 {
     background: aqua;
@@ -108,15 +102,9 @@ h1 {
 }
 
 
-.footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-style: italic;
-    padding: 10px 10px 10px 10px;
-}
 
 
+/*navigation bar */
 nav ul li a:link,
 nav ul li a:visited {
     font-size: 100%;
@@ -153,9 +141,16 @@ nav ul li {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    overflow: hidden;
-    position: relative;
+    
 
+}
+/*footer with bottom navigation */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 10px 10px 10px;
 }
 
 footer ul li {
@@ -204,7 +199,7 @@ footer a:hover,a:active {
     width: 100%;
 
 }
-
+/* class for the big picture in the left section */
 .square {
     width: 40%;
     height: auto;
@@ -213,13 +208,13 @@ footer a:hover,a:active {
     border: solid 0.25rem black;
     text-align: center;
 }
-
+/* boreders for the order now form */
 .tableclass {
     border: solid black 10px;
     background-color: pink;
     margin-left: 15%;
 }
-
+/*styling for the billing form */
 .billing {
     width: 25%;
     text-align: left;

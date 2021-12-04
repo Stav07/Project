@@ -26,6 +26,11 @@ h1 {
 
 }
 
+.logo {
+    width:40%;
+    height: auto;
+}
+
 .mainpic {
     width: 50%;
     height: auto;

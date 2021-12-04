@@ -27,7 +27,7 @@ h1 {
 }
 /* class for logo */
 .logo {
-    width:25%;
+    width:300px;
     height: auto;
 }
 /* class for the picture in main section */
@@ -54,18 +54,16 @@ h1 {
     background: linear-gradient(to right, white 0%, pink 100%);
     color: black;
     float: left;
-    margin-left: 10%;
     margin-bottom: -2000px;
     padding-bottom: 2000px;
     text-align: center;
 }
 
 #main-content {
-    width: 30%;
+    width: 60%;
     background: white;
     color: black;
     float: left;
-    margin-left: 10%;
     margin-bottom: -2000px;
     padding-bottom: 2000px;
     text-align: center;

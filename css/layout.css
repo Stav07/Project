@@ -270,6 +270,12 @@ footer a:hover,a:active {
 
 }
 
+.image {   
+    object-fit: cover;
+    width: 100%;
+    height: 20%;
+}
+
 
 
 

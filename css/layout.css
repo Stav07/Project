@@ -204,6 +204,13 @@ footer a:hover,a:active {
     border: solid black 10px;
     background-color: pink;
 }
+
+.calform
+{
+    width: 25%;
+    text-align: left;
+    font-weight: bold;
+}
 /*styling for the billing form */
 .billing {
     width: 25%;
